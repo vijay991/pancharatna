@@ -22,17 +22,17 @@ def gallery():
 def contact():
     return render_template('contact.html')
 
-@app.route('/textbook')
+@app.route('/course')
 def course():
-    return render_template('textbook.html')
+    return render_template('course.html')
 
 @app.route('/arts')
 def arts():
     return render_template('arts.html')
 
-# @app.route('/commerce')
-# def commerce():
-#     return render_template('commerce.html')
+@app.route('/commerce')
+def commerce():
+    return render_template('commerce.html')
 
 @app.route('/result')
 def result():
